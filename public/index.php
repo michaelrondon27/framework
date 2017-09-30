@@ -7,6 +7,7 @@
 
 	require SYS_PATH."Router.php";
 	require APP_PATH."http/routes.php";
+	require SYS_PATH."Response.php";
 
 	$url = $_GET["url"];
 

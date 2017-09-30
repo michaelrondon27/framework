@@ -5,7 +5,7 @@
 
 		public function index()
 		{
-			echo "Hola desde el index";
+			Response::render("home");
 		}
 
 		public function about()
